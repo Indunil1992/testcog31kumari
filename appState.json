@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "testcog31kumari.js",
         "cursor": {
-          "lineNumber": 2,
-          "column": 5
+          "lineNumber": 3,
+          "column": 50
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -28,7 +28,16 @@
               "triggerType": "CustomMessage"
             }
           }
-        ]
+        ],
+        "testCases": {
+          "dc4c8545-20d4-44c3-b205-2db872fee22c": {
+            "id": "dc4c8545-20d4-44c3-b205-2db872fee22c",
+            "name": "Test event",
+            "functionId": "d5866dfd-c570-4c09-b508-f41b471f4a6f",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -324,7 +333,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585655639384
+    "lastSave": 1585655788099
   },
   "VCS_STATE": {
     "provider": "GitHub",
